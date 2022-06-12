@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+	text-align: center;
+}
+
+.logo{
+border-radius: 58px;
+}
+
+body{
+	background-image:linear-gradient(to top, rgba(132,250,176,0.3) 0%, rgba(143,211,244,0.3) 100%), url(../IMG/fondolegal.jpg);
+	background-size: cover;
+	height:100%;
+	color:white;
+	font-family: 'Courgette', cursive;
+    font-size: 17px;
+	}
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+	margin-top: -50px;
+	}
+
+
+.navigation{
+	background: rgb(41,250,7);
+	background: linear-gradient(90deg, rgba(41,250,7,0.6194852941176471) 0%, rgba(0,212,255,0.6446953781512605) 100%);
+	color: #000;
+	padding: 0.5rem 0;
+}
+
+.head{
+	text-align: center;
+	padding:0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #000;
+	}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 6px auto;
+	}
+
+.header a{
+	color: #000000;
+	text-decoration: none;
+	}
+
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+.navigation ul li{
+	display: inline-block;
+	}
+
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+	background: #00B408;
+}
+/*----------------------*/
+
+
+form {
+	padding: 50px 20px;
+	background-color: #000000a6 ;
+	margin: calc(25% + 100px);
+	margin-top: 20px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+	
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+.off{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgb(0, 0, 0);
+	color: #fff
+
+}
+
+.mensaje{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+
+}
+h6 {
+	text-align: center;
+	padding: 12px;
+    color: rgb(206, 203, 203);
+    line-height: 20px;
+}
+.gabo{
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+header{
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0,.3);
+}
+header h1{
+	text-align: center;
+  	padding: 12px;
+  	color: #000;
+}
+header a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: all ease 300ms;
+}
+.login-box{
+	background-image:url(../IMG/logogae.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
